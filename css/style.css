@@ -1,0 +1,68 @@
+#container {
+    margin: 0px auto;
+    width:100%;
+    height:auto;
+}
+#calculator {
+    margin: 0px auto;
+    width:300px;
+    height:450px;
+    border: 1px solid black;
+
+}
+
+#LCD {
+    width:272px;
+    height:50px;
+    border: 1px solid black;
+    margin:0px auto;
+    margin-top:10px;
+    background:rgba(168, 206, 255, 0.719);
+    display:flex;
+    align-items: center;
+    padding-left:10px;
+    overflow:hidden;
+
+}
+
+.buttons{
+    background: #ddd;
+    border: 1px solid black;
+}
+
+#keypad {
+    width:90%;
+    height:80%;
+    border: 1px solid black;
+    margin:0px auto;
+    margin-top:10px; 
+    
+}
+
+.numbers {
+    flex: 1 0 50px;
+}
+.period {
+    flex: 1 0 50px;
+}
+
+.operator {
+    flex: 1 0 50px;
+}
+.equals {
+    flex: 1 0 50px;
+}
+.func {
+    flex: 1 0 50px;
+}
+.clear {
+    flex: 1 0 50px;
+}
+
+.row {
+    display: -webkit-flex;
+	display: flex;
+	flex-flow: row nowrap;
+    justify-content:space-between;
+    height: 72px;
+}
